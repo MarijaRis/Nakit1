@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <link rel="stylesheet" href="css/css/jquery.bxslider.css" type="text/css">
+    <title>Nakit</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <header>
+            <div class="logo">
+                <img class="logo-img" src="logo1.jpg" />
+
+
+                <div class="container-kosnicka">
+                    <div class="kosnicka">
+                        <span id="itemCount">0</span>производ(и)-0ден
+                        <img src="black-cart.jpg" />
+                    </div>
+                    <button class="izbrisi">Избриши</button>
+                
+                </div>
+
+                <div id="shoppingCart">
+                    <div id="cartItemsContainer">
+                        <span id="closeList">X</span>
+                        <h2>Производи во кошничка</h2>
+                        <div id="cartItems"></div>
+                        <div id="cartTotal"></div>
+                    </div>
+                </div>
+
+                <div class="contact"><img src="phoneTransparent.jpg" /> &nbsp 070 123 456 (Viber/WhatsApp)
+                </div>
+
+                <!-- <div class="search-bar">
+                    <input type="text" class="search" placeholder="  пребарај..." />
+                    <span><img src="Lupa..png" /></span>
+                </div> -->
+            </div>
+            <nav class="navbar">
+                <ul class="lista">
+                    <li id="active1" class="current" data-tab="slider"><a href="#"> Дома </a> </li>
+                    <li id="has-dropdown" data-tab="gerdani1"><a href="#"> Гердани </a>
+                        <ul id="dropdown" class="lista1">
+                            <li id="kat-1" class="current" data-tab="kat1"><a href="#"> Категорија 1</a> </li>
+                            <li id="kat-2" data-tab="kat2"><a href="#"> Категорија 2</a> </li>
+                            <li id="kat-3" data-tab="kat3"><a href="#"> Категорија 3</a></li>
+                        </ul>
+                    </li>
+                    <li id="obetki_1" data-tab="obetki_"><a href="#"> Обетки </a> </li>
+                    <li id="narakvici_1" data-tab="narakvici_"><a href="#"> Нараквици </a> </li>
+                    <li id="privezoci_1" data-tab="privezoci_"><a href="#"> Привезоци </a></li>
+                    <li id="kombinacii_1" data-tab="kombinacii_"><a href="#"> Комбинации</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="body-wrap">
+            <div id="slider" class="content current">
+                <ul class="bxslider">
+                    <li class="slider-list"><a href="#"><img src="Slider/cover.jpg"></a> </li>
+                    <li class="slider-list"> <a href="#"><img src="Slider/b.jpg"></a></li>
+                    <li class="slider-list"> <a href="#"><img src="Slider/07.jpg"></a></li>
+                    <li class="slider-list"> <a href="#"><img src="Slider/022.jpg"></a></li>
+                </ul>
+            </div>
+            <div id="articles">
+                <div id="gerdani1" class="content">
+                    <div id="kat1">
+                        <div class="gerdani kategorija1">
+                            <img class="itemImage" src="gerdani/kategorija1/04.jpg.jpg">
+                            <div class="cena" data-price='800'> 800ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija1">
+                            <img class="itemImage" src="gerdani/kategorija1/05.jpg.jpg">
+                            <div class="cena" data-price='650'> 650ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija1">
+                            <img class="itemImage" src="gerdani/kategorija1/06.jpg.jpg">
+                            <div class="cena" data-price='1050'> 1050ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija1">
+                            <img class="itemImage" src="gerdani/kategorija1/07.jpg.jpg">
+                            <div class="cena" data-price='500'> 500ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija1">
+                            <img class="itemImage" src="gerdani/kategorija1/015.jpg.jpg">
+                            <div class="cena" data-price='1500'> 1500ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija1">
+                            <img class="itemImage" src="gerdani/kategorija1/016.jpg.jpg">
+                            <div class="cena" data-price='650'> 650ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija1">
+                            <img class="itemImage" src="gerdani/kategorija1/017.jpg.jpg">
+                            <div class="cena" data-price='650'> 650ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija1">
+                            <img class="itemImage" src="gerdani/kategorija1/019.jpg.jpg">
+                            <div class="cena" data-price='400'> 400ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija1">
+                            <img class="itemImage" src="gerdani/kategorija1/024.jpg.jpg">
+                            <div class="cena" data-price='600'> 600ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija1">
+                            <img class="itemImage" src="gerdani/kategorija1/025.jpg.jpg">
+                            <div class="cena" data-price='850'> 850ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija1">
+                            <img class="itemImage" src="gerdani/kategorija1/026.jpg.jpg">
+                            <div class="cena" data-price='850'> 850ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija1">
+                            <img class="itemImage" src="gerdani/kategorija1/033.jpg.jpg">
+                            <div class="cena" data-price='450'> 450ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija1">
+                            <img class="itemImage" src="gerdani/kategorija1/052.jpg.jpg">
+                            <div class="cena" data-price='500'> 500ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija1">
+                            <img class="itemImage" src="gerdani/kategorija1/072.jpg.jpg">
+                            <div class="cena" data-price='800'> 800ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija1">
+                            <img class="itemImage" src="gerdani/kategorija1/091.jpg.jpg">
+                            <div class="cena" data-price='990'> 990ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                    </div>
+                    <div id="kat2">
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/02.jpg.jpg">
+                            <div class="cena" data-price='350'> 350ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/03.jpg.jpg">
+                            <div class="cena" data-price='450'> 450ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/08.jpg.jpg">
+                            <div class="cena" data-price='490'> 490ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/010.jpg.jpg">
+                            <div class="cena" data-price='650'> 650ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/011.jpg.jpg">
+                            <div class="cena" data-price='250'> 250ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/013.jpg.jpg">
+                            <div class="cena" data-price='400'> 400ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/014.jpg.jpg">
+                            <div class="cena" data-price='390'> 390ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/018.jpg.jpg">
+                            <div class="cena" data-price='650'> 650ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/020.jpg.jpg">
+                            <div class="cena" data-price='250'> 250ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/021.jpg.jpg">
+                            <div class="cena" data-price='250'> 250ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/022.jpg.jpg">
+                            <div class="cena" data-price='350'> 350ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/023.jpg.jpg">
+                            <div class="cena" data-price='650'> 650ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/027.jpg.jpg">
+                            <div class="cena" data-price='190'> 190ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/028.jpg.jpg">
+                            <div class="cena" data-price='180'> 180ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/029.jpg.jpg">
+                            <div class="cena" data-price='650'> 650ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/030.jpg.jpg">
+                            <div class="cena" data-price='350'> 350ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/031.jpg.jpg">
+                            <div class="cena" data-price='750'> 750ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/032.jpg.jpg">
+                            <div class="cena" data-price='650'> 650ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/039.jpg.jpg">
+                            <div class="cena" data-price='350'> 350ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/041.jpg.jpg">
+                            <div class="cena" data-price='450'> 450ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/043.jpg.jpg">
+                            <div class="cena" data-price='500'> 500ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/044.jpg.jpg">
+                            <div class="cena" data-price='600'> 600ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/049.jpg.jpg">
+                            <div class="cena" data-price='150'> 150ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/053.jpg.jpg">
+                            <div class="cena" data-price='400'> 400ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/056.jpg.jpg">
+                            <div class="cena" data-price='650'> 650ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/070.jpg.jpg">
+                            <div class="cena" data-price='190'> 190ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/071.jpg.jpg">
+                            <div class="cena" data-price='550'> 550ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/073.jpg.jpg">
+                            <div class="cena" data-price='450'> 450ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/074.jpg.jpg">
+                            <div class="cena" data-price='550'> 550ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/075.jpg.jpg">
+                            <div class="cena" data-price='600'> 600ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija2">
+                            <img class="itemImage" src="gerdani/kategorija2/076.jpg.jpg">
+                            <div class="cena" data-price='350'> 350ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                    </div>
+                    <div id="kat3">
+                        <div class="gerdani kategorija3">
+                            <img class="itemImage" src="gerdani/kategorija3/045.jpg.jpg">
+                            <div class="cena" data-price='650'> 650ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija3">
+                            <img class="itemImage" src="gerdani/kategorija3/060.jpg.jpg">
+                            <div class="cena" data-price='350'> 350ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija3">
+                            <img class="itemImage" src="gerdani/kategorija3/067.jpg.jpg">
+                            <div class="cena" data-price='250'> 250ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija3">
+                            <img class="itemImage" src="gerdani/kategorija3/068.jpg.jpg">
+                            <div class="cena" data-price='190'> 190ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija3">
+                            <img class="itemImage" src="gerdani/kategorija3/083.jpg.jpg">
+                            <div class="cena" data-price='450'> 450ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija3">
+                            <img class="itemImage" src="gerdani/kategorija3/085.jpg.jpg">
+                            <div class="cena" data-price='550'> 550ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija3">
+                            <img class="itemImage" src="gerdani/kategorija3/086.jpg.jpg">
+                            <div class="cena" data-price='650'> 650ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija3">
+                            <img class="itemImage" src="gerdani/kategorija3/087.jpg.jpg">
+                            <div class="cena" data-price='450'> 450ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija3">
+                            <img class="itemImage" src="gerdani/kategorija3/088.jpg.jpg">
+                            <div class="cena" data-price='500'> 500ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                        <div class="gerdani kategorija3">
+                            <img class="itemImage" src="gerdani/kategorija3/089.jpg.jpg">
+                            <div class="cena" data-price='550'> 550ден </div>
+                            <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="obetki_" class="content">
+                    <div class="obetki">
+                        <img class="itemImage" src="obetki/001.jpg.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="obetki">
+                        <img class="itemImage" src="obetki/002.jpg.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="obetki">
+                        <img class="itemImage" src="obetki/004.jpg.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="obetki">
+                        <img class="itemImage" src="obetki/005.jpg.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="obetki">
+                        <img class="itemImage" src="obetki/006.jpg.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="obetki">
+                        <img class="itemImage" src="obetki/007.jpg.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="obetki">
+                        <img class="itemImage" src="obetki/008.jpg.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="obetki">
+                        <img class="itemImage" src="obetki/009.jpg.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="obetki">
+                        <img class="itemImage" src="obetki/010.jpg.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="obetki">
+                        <img class="itemImage" src="obetki/011.jpg.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+
+                </div>
+
+                <div id="narakvici_" class="content">
+                    <div class="narakvici">
+                        <img class="itemImage" src="alki/e.jpg.jpg">
+                        <div class="cena" data-price='350'> 350ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="narakvici">
+                        <img class="itemImage" src="alki/f.jpg.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="narakvici">
+                        <img class="itemImage" src="alki/g.jpg.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="narakvici">
+                        <img class="itemImage" src="alki/h.jpg.jpg">
+                        <div class="cena" data-price='180'> 180ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="narakvici">
+                        <img class="itemImage" src="alki/i.jpg.jpg">
+                        <div class="cena" data-price='170'> 170ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="narakvici">
+                        <img class="itemImage" src="alki/j.jpg.jpg">
+                        <div class="cena" data-price='250'> 250ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="narakvici">
+                        <img class="itemImage" src="alki/k.jpg.jpg">
+                        <div class="cena" data-price='350'> 350ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="narakvici">
+                        <img class="itemImage" src="alki/l.jpg.jpg">
+                        <div class="cena" data-price='250'> 250ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="narakvici">
+                        <img class="itemImage" src="alki/m.jpg.jpg">
+                        <div class="cena" data-price='250'> 250ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div><div class="narakvici">
+                        <img class="itemImage" src="alki/a.jpg.jpg">
+                        <div class="cena" data-price='250'> 250ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="narakvici">
+                        <img class="itemImage" src="alki/b.jpg.jpg">
+                        <div class="cena" data-price='250'> 250ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="narakvici">
+                        <img class="itemImage" src="alki/c.jpg.jpg">
+                        <div class="cena" data-price='190'> 190ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="narakvici">
+                        <img class="itemImage" src="alki/d.jpg.jpg">
+                        <div class="cena" data-price='450'> 450ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+
+
+
+                </div>
+                <div id="privezoci_" class="content">
+                    <div class="privezoci">
+                        <img class="itemImage" src="privezoci/1.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="privezoci">
+                        <img class="itemImage" src="privezoci/2.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="privezoci">
+                        <img class="itemImage" src="privezoci/3.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="privezoci">
+                        <img class="itemImage" src="privezoci/4.jpg">
+                        <div class="cena" data-price='100'> 100ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="privezoci">
+                        <img class="itemImage" src="privezoci/5.jpg">
+                        <div class="cena" data-price='100'> 100ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="privezoci">
+                        <img class="itemImage" src="privezoci/6.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="privezoci">
+                        <img class="itemImage" src="privezoci/7.jpg">
+                        <div class="cena" data-price='150'> 150ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="privezoci">
+                        <img class="itemImage" src="privezoci/8.jpg">
+                        <div class="cena" data-price='100'> 100ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="privezoci">
+                        <img class="itemImage" src="privezoci/9.jpg">
+                        <div class="cena" data-price='100'> 100ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+
+                </div>
+                <div id="kombinacii_" class="content">
+                    <div class="kombinacii">
+                        <img class="itemImage" src="kombinacii/aa.jpg.jpg">
+                        <div class="cena" data-price='650'> 650ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="kombinacii">
+                        <img class="itemImage" src="kombinacii/bb.jpg.jpg">
+                        <div class="cena" data-price='800'> 800ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="kombinacii">
+                        <img class="itemImage" src="kombinacii/cc.jpg.jpg">
+                        <div class="cena" data-price='1500'> 1500ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="kombinacii">
+                        <img class="itemImage" src="kombinacii/dd.jpg.jpg">
+                        <div class="cena" data-price='1500'> 1500ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="kombinacii">
+                        <img class="itemImage" src="kombinacii/ee.jpg.jpg">
+                        <div class="cena" data-price='650'> 650ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="kombinacii">
+                        <img class="itemImage" src="kombinacii/ff.jpg.jpg">
+                        <div class="cena" data-price='700'> 700ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="kombinacii">
+                        <img class="itemImage" src="kombinacii/gg.jpg.jpg">
+                        <div class="cena" data-price='700'> 700ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                    <div class="kombinacii">
+                        <img class="itemImage" src="kombinacii/hh.jpg.jpg">
+                        <div class="cena" data-price='850'> 850ден </div>
+                        <div class="dodadi"> <img src="black-cart.jpg"> Во кошничка </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+
+            <div class="social">
+                <ul class="footerList">
+                    <li>Брза и безбедна достава -</li>
+                    <li>-Враќање и замена на производи -</li>
+                    <li>-Сигурно плаќање</li>
+
+                </ul>
+                <div class="socialImg">
+                    <img src="fb-2.jpg" />
+                    <img src="twitter.jpg" />
+                    <img src="instagram.jpg" />
+                </div>
+            </div>
+
+
+        </footer>
+
+    </div>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="js/sliderScript.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/myScript.js" type="text/javascript"></script>
+    <script src="js/js/jquery.bxslider.js"></script>
+    <script src="js/js/jquery.bxslider.min.js"></script>
+
+
+
+</body>
+
+</html>
