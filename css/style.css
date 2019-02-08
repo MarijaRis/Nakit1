@@ -1,0 +1,421 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+    background-image: linear-gradient(to bottom right, lightblue, white);
+
+}
+
+.main-container {
+    margin: 0 auto;
+    padding: 0;
+    width: 1100px;
+    position: relative;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+
+}
+
+.logo-img {
+    left: 0;
+    width: 600px;
+    height: 150px;
+    margin: 10px auto;
+}
+
+.container-kosnicka {
+    display: flex;
+    justify-content: end;
+    margin-top: 150px;
+    margin-left: 71px;
+    position: absolute;
+    right: 70px;
+    top: -30px;
+    font-weight: 550;
+}
+
+.kosnicka img {
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+.kosnicka:hover{
+    font-size: 17px;
+}
+
+
+.izbrisi{
+    cursor: pointer;
+  }
+
+#shoppingCart {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#cartItemsContainer {
+    position: relative;
+    width: 600px;
+    left: 50%;
+    top: 150px;
+    margin-left: -300px;
+    padding: 40px;
+    box-shadow: 0 0 10px black;
+    background: #e9e9e9;
+    overflow: auto;
+}
+
+  #cartItemsContainer .itemImage{
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding: 0 10px;
+  }
+   
+  #cartItemsContainer .cena {
+    margin-top: 0;
+  }
+  .removeItem {
+    width: 100%;
+  }
+  #cartItems .dodadi{
+    display: none;
+  }
+
+  #cartItems .kategorija1:hover,
+  #cartItems .kategorija2:hover,
+  #cartItems .kategorija3:hover,
+  #cartItems .obetki:hover,
+  #cartItems .narakvici:hover,
+  #cartItems .privezoci:hover,
+  #cartItems .kombinacii:hover {
+    transform: scale(1);
+
+}
+
+
+.contact {
+    display: flex;
+    justify-content: end;
+    margin: 15px auto;
+    font-weight: 550;
+}
+
+.contact img {
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+.container-kosnicka:hover{
+    cursor: pointer;
+}
+
+#closeList:hover{
+    cursor: pointer;
+    font-size: 23px;
+}
+#closeList{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.navbar {
+    background-color: #89afed;
+    width: 100%;
+    height: 90px;
+    margin: 180px auto 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    /* justify-content: space-around; */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 5px 5px 5px 75px;
+    padding: 0;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/* #active>a{
+  color: white;
+} */
+
+ul li a:hover {
+    color: white;
+}
+
+.search-bar {
+    position: relative;
+    display: flex;
+    /* width: 90px; */
+    height: 27px;
+    margin-top: 40px;
+    margin: 60px 0;
+
+}
+
+.search-bar img {
+    width: 25px;
+    height: 25px;
+    border: 1px solid gray;
+    background: white;
+}
+
+#dropdown {
+    display: none;
+    width: 200px;
+    margin-left: 60px;
+
+}
+
+#dropdown li {
+    display: flex;
+    width: 60%;
+    height: auto;
+    margin: 15px;
+    padding: 0;
+    float: left;
+}
+
+#dropdown li a {
+    font-size: 20px;
+    /* margin-left: -30px; */
+
+}
+
+#has-dropdown:hover #dropdown {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    background: #89afed;
+    left: 100px;
+    text-align: center;
+    padding: 22px;
+}
+
+.body-wrap {
+    width: 100%;
+    /* max-width: 1100px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 100px; */
+}
+
+
+#slider {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 40px;
+    transition: width .5s ease;
+}
+
+#slider .bxslider img {
+    width: 100%;
+    max-width: 100%;
+    height: 453px;
+    margin-top: -2px;
+    margin-bottom: 5px;
+    /* margin-left: 2px; */
+    border: none;
+}
+
+#slider .bx-wrapper {
+    border: none;
+    width: 100%;
+    /* margin-left: 5px; */
+    margin-top: 0;
+    height: 450px;
+
+}
+
+#articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kategorija1,
+.kategorija2,
+.kategorija3 {
+    flex-wrap: wrap;
+    margin: 10px;
+    float: left;
+    border: 1px solid grey;
+    border-radius: 3px;
+
+}
+
+.narakvici {
+    flex-wrap: wrap;
+    margin: 10px;
+    float: left;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.obetki {
+    flex-wrap: wrap;
+    margin: 10px;
+    float: left;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.privezoci {
+    flex-wrap: wrap;
+    margin: 10px;
+    float: left;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.kombinacii {
+    flex-wrap: wrap;
+    margin: 10px;
+    float: left;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.gerdani img,
+.obetki img,
+.narakvici img,
+.privezoci img,
+.kombinacii img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 250px;
+    padding: 1px;
+    background-color: #fff;
+    border-radius: 3px;
+
+}
+
+.kategorija1:hover,
+.kategorija2:hover,
+.kategorija3:hover,
+.obetki:hover,
+.narakvici:hover,
+.privezoci:hover,
+.kombinacii:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+    opacity: 1;
+}
+
+
+/* .gerdani, .obetki, .narakvici, .privezoci, .kombinacii{ */
+.content {
+    display: none;
+}
+
+.content.current {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cena {
+    border-bottom: 1px solid grey;
+}
+
+.cena:hover,
+.dodadi:hover {
+    background: lightgrey;
+    cursor: pointer;
+}
+
+.dodadi:hover img {
+    background: lightgrey;
+    cursor: pointer;
+}
+
+.cena,
+.dodadi {
+    font-size: 17px;
+    font-family: sans-serif;
+    align-content: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+
+}
+
+.dodadi img {
+    display: flex;
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: #89afed;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social img {
+    width: 35px;
+    height: 35px;
+    justify-content: flex-end;
+    margin-right: 10px; 
+   
+}
+.social img:hover{
+    opacity: 0.8;
+}
+.socialImg{
+    margin-left: 210px;
+}
+.footerList{
+    display: flex;
+}
+.footerList li{
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    justify-content: flex-start;
+    margin: 10px;
+
+}
+.footerList li:hover{
+ cursor: pointer;
+}
